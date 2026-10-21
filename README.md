@@ -1,13 +1,22 @@
-# Minimal Flask Web Application
+## Project Description - Minimal Flask Application
 
-This is a single-file Flask web application built with Flask 3.x that serves a simple HTML landing page.
+The application displays the message "Hello from Michael"
 
-## Requirements
-* Python 3.8+
-* `flask==3.0.3`
+## AI Tool Used
+Gemini 
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone <your-repo-url>
-   cd <your-repo-folder>
+## Technologies
+- Python 3.15.0
+- Flask
+- Git and GitHub
+- Visual Studio Code
+
+## How to Run
+1. Download or clone this repository.
+2. Create a Python virtual environment.
+3. Activate the virtual environment.
+4. Install dependencies using:
+   pip install -r requirements.txt
+5. Start the application using:
+   python app.py
+6. Open http://127.0.0.1:5000 in a browser.
