@@ -1,22 +1,45 @@
-## Project Description - Minimal Flask Application
+# Lowcode Project
 
-The application displays the message "Hello from Michael"
+A lightweight Flask application that serves a simple greeting page at the root route.
 
-## AI Tool Used
-Gemini 
+## Overview
 
-## Technologies
-- Python 3.15.0
-- Flask
-- Git and GitHub
-- Visual Studio Code
+This project demonstrates a minimal Python web app built with Flask. The application exposes a single endpoint:
 
-## How to Run
-1. Download or clone this repository.
-2. Create a Python virtual environment.
-3. Activate the virtual environment.
-4. Install dependencies using:
+- `/` returns the text `Hello from Michael`
+
+## Requirements
+
+- Python 3.11+
+- Flask 3.0.3
+
+## Setup
+
+1. Create and activate a virtual environment:
+   ```bash
+   python3 -m venv .venv
+   source .venv/bin/activate
+   ```
+2. Install dependencies:
+   ```bash
    pip install -r requirements.txt
-5. Start the application using:
-   python app.py
-6. Open http://127.0.0.1:5000 in a browser.
+   ```
+
+## Run the app
+
+Start the Flask development server:
+
+```bash
+python app.py
+```
+
+Then open the app in your browser at:
+
+```text
+http://127.0.0.1:5000/
+```
+
+## Project files
+
+- `app.py` — Flask application definition and route logic
+- `requirements.txt` — Python dependencies
