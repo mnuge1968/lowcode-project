@@ -1,0 +1,2 @@
+I used Gemini,Claude and GPT. Gemini delivered on the first prompt, without errors. Claude required 2 edits to my prompt before delivering a quality result. GPT was problematic and I eventually got the necessary result after prompt edits.
+I successfully uploaded the Gemini app called contactform.py into my lowcode-project/Experiments/Week 02 Github repository. The contact form works in my running app and an invalid email is rejected by the server.
